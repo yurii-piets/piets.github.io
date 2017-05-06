@@ -1,0 +1,140 @@
+body {
+    background-image: url(img/shattered-island.gif);
+    font-family: 'Fenix', 'Lusitana', serif;
+    /*text-align: justify;*/
+    word-spacing: 1px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/*!****************Whoami section*************!*/
+
+h1 {
+    font-size: 30px;
+    color: #000;
+}
+
+h1:hover {
+    cursor: default;
+}
+
+#bio {
+    margin: 20px 6px 0 6px;
+    display: block;
+}
+
+#bio-heading {
+    background-color: #afc0d7;
+    font-size: 16px;
+    border-radius: 3px 3px 0 0;
+    padding: 0 5px 1px 5px;
+}
+
+#bio-body {
+    font-size: 16px;
+    background-color: #d6dde8;
+    border-radius: 0 0 2px 2px;
+    padding: 10px 0;
+}
+
+#avatar {
+    margin: 5px;
+}
+
+/*!****************End of whoami section*************!*/
+
+/***************Experience section********************/
+
+h2 {
+    font-size: 26px;
+    color: #000;
+}
+
+h2:hover {
+    cursor: default;
+}
+
+#exp {
+    margin: 20px 6px 0 6px;
+    display: block;
+}
+
+#exp-heading {
+    background-color: #afc0d7;
+    font-size: 16px;
+    border-radius: 3px 3px 0 0;
+    padding: 0 5px 1px 5px;
+}
+
+#exp-body {
+    background-color: #d6dde8;
+    border-radius: 0 0 2px 2px;
+}
+
+/**********End of experience section********************/
+
+
+/*!****************Social section***************/
+
+#socials {
+    color: #fff;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+}
+
+#socials ul {
+    list-style-type: none;
+    padding: 2px;
+    margin: 2px;
+}
+
+#socials ul li {
+    display: inline-block;
+    margin: 2px;
+    padding: 2px;
+}
+
+.social-item {
+    -moz-transition: .4s ease-out;
+    -o-transition: .4s ease-out;
+    -webkit-transition: .4s ease-out;
+    transition: .4s ease-out;
+
+    border-radius: 5px;
+}
+
+
+.social-item:hover {
+    -moz-transform: scale(1.005);
+    -o-transform: scale(1.005);
+    -webkit-transform: scale(1.005);
+    transform: scale(1.005);
+}
+
+#youtube {
+    border-radius: 8px;
+}
+
+#github:hover {
+    background-color: #913399; /*github color*/
+}
+#vk:hover {
+    background-color: #45668e; /*vk color*/
+}
+#facebook:hover {
+    background-color: #3b5998; /*facebook color*/
+}
+#youtube:hover {
+    background-color: #bb0000; /*youtube color*/
+}
+
+#email {
+    font-family: "Comic Sans MS", serif;
+    font-size: 14px;
+}
+
+/**************End of social section***************/
