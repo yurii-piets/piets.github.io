@@ -132,6 +132,14 @@ h2:hover {
     background-color: #bb0000; /*youtube color*/
 }
 
+#linkedin:hover{
+    background-color: #0077B5; /*LinkedIn color*/
+}
+
+#bitbucket:hover{
+    background-color: #205081; /*Bitbucket color*/
+}
+
 #email {
     font-family: "Comic Sans MS", serif;
     font-size: 14px;
