@@ -1,7 +1,6 @@
 body {
     background-image: url(../img/shattered-island.gif);
     font-family: 'Fenix', 'Lusitana', serif;
-    /*text-align: justify;*/
     word-spacing: 1px;
     width: 100%;
 }
@@ -106,7 +105,6 @@ h2:hover {
 
     border-radius: 5px;
 }
-
 
 .social-item:hover {
     -moz-transform: scale(1.005);
