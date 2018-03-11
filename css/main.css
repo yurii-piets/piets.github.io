@@ -96,18 +96,27 @@ video {
     height: 37px;
 }
 
+#skills{
+    width: 100%;
+    height: 100vh;
+}
+
 .skills-blocks {
     padding: 25px;
     text-align: center;
     background: #ffc66d;
-    text-transform: uppercase;
-    height: 2000px;
 }
 
 .skills-blocks h1 {
     font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
     font-weight: bold;
     font-size: 1.5em;
+}
+
+.skills-enum {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;;
 }
 
 footer{
