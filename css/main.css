@@ -97,7 +97,7 @@ video {
 }
 
 .skills-blocks {
-    padding: 15px;
+    padding: 25px;
     text-align: center;
     background: #ffc66d;
     text-transform: uppercase;
@@ -108,4 +108,34 @@ video {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1.5em;
+}
+
+footer{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85em;
+    padding: 40px;
+    height: 130px;
+    background: #252a30;
+    text-align: center;
+    color: rgba(255,255,255,0.4);
+}
+
+.email{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer a{
+    color: rgba(255,255,255,0.4);
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #0078d7;
+
+    text-decoration: none;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    transition: .5s ease-out;
 }
