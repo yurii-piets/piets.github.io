@@ -10,7 +10,7 @@ body {
 }
 
 a {
-    font-family: MontSerrat,Tahoma,Arial,sans-serif;
+    font-family: MontSerrat, Tahoma, Arial, sans-serif;
     font-weight: 700;
     font-size: inherit;
     color: inherit;
@@ -35,7 +35,12 @@ video {
     transition: 1s opacity;
 }
 
-.pre-info{
+.first-page {
+    height: 100vh;
+    width: 100%;
+}
+
+.pre-info {
     color: #fff;
     display: block;
     position: absolute;
@@ -49,21 +54,21 @@ video {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: MontSerrat,Tahoma,Arial,sans-serif;
+    font-family: MontSerrat, Tahoma, Arial, sans-serif;
 }
 
-.pre-info .round-photo img{
+.pre-info .round-photo img {
     width: 200px;
     height: 200px;
 }
 
-.pre-info .name-info{
+.pre-info .name-info {
     font-weight: bold;
     margin-top: 15px;
     font-size: 1.4em;
 }
 
-.pre-info .prog-info{
+.pre-info .prog-info {
     margin-top: 10px;
     font-size: 1.3em;
 }
@@ -84,10 +89,23 @@ video {
     -webkit-transition: .5s;
     transition: .5s;
     opacity: .7;
-    url('')
 }
 
-.down-pointer-img{
+.down-pointer-img {
     width: 70px;
     height: 37px;
+}
+
+.skills-blocks {
+    padding: 15px;
+    text-align: center;
+    background: #ffc66d;
+    text-transform: uppercase;
+    height: 2000px;
+}
+
+.skills-blocks h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
 }
