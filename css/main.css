@@ -33,3 +33,36 @@ video {
     background-size: cover;
     transition: 1s opacity;
 }
+
+.pre-info{
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: MontSerrat,Tahoma,Arial,sans-serif;
+}
+
+.pre-info .round-photo img{
+    width: 200px;
+    height: 200px;
+}
+
+.pre-info .name-info{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.4em;
+}
+
+.pre-info .prog-info{
+    margin-top: 10px;
+    font-size: 1.3em;
+}
