@@ -10,8 +10,7 @@ body {
     font-weight: normal;
 }
 
-a,
-a:hover {
+a, a:hover {
     font-weight: 500;
     text-decoration: none;
 }
@@ -138,6 +137,7 @@ ul {
 
 .project {
     text-align: left;
+    padding: 10px;
 }
 
 .project-header a {
@@ -172,6 +172,10 @@ ul {
 
 .project-tech-stack ul {
     padding-left: 5px;
+}
+
+#colibri-header{
+    text-align: right;
 }
 
 footer {
