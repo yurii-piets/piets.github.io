@@ -10,12 +10,9 @@ body {
     font-weight: normal;
 }
 
-a {
-    font-weight: 500;
-    text-decoration: none;
-}
-
+a,
 a:hover {
+    font-weight: 500;
     text-decoration: none;
 }
 
@@ -144,12 +141,54 @@ ul {
 }
 
 .project {
-    height: 350px;
-    padding: 10px;
-    margin: 10px;
+    padding: 10px 145px 50px 50px;
+    text-align: left;
+}
 
-    /*remove*/
-    background: #004444;
+.project {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+.project h2 {
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 50px;
+    text-decoration: none;
+}
+
+.project-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #252a30;
+    text-decoration: none;
+}
+
+.project-header:hover {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #252a30;
+    text-decoration: none;
+}
+
+.project-img {
+    filter: saturate(50%);
+    transition-duration: 1s;
+}
+
+.project-img:hover {
+    filter: saturate(100%);
+    transition-duration: 1s;
+}
+
+.project-tech-stack {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.project-tech-stack h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 
 footer {
