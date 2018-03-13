@@ -50,24 +50,23 @@ ul {
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-    text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-.pre-info .round-photo img {
-    width: 200px;
-    height: 200px;
+.pre-info .main-photo img {
+    width: 250px;
+    height: 250px;
 }
 
 .pre-info .name-info {
     font-weight: bold;
     margin-top: 15px;
-    font-size: 1.4em;
+    font-size: 2.5em;
 }
 
 .pre-info .prog-info {
     margin-top: 10px;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 .down-pointer {
