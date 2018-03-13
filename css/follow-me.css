@@ -5,6 +5,7 @@
     top: calc(50% - (220px / 2));
     width: 55px;
     height: 220px;
+    font-size: 0.85rem;
 }
 
 .follow-me a {
