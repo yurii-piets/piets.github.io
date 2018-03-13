@@ -157,6 +157,8 @@ ul {
 .project-img {
     filter: saturate(70%);
     transition-duration: 1s;
+    max-height: 350px;
+    max-width: 350px;
 }
 
 .project-img:hover {
